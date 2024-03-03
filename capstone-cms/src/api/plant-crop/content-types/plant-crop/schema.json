@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plant_crops",
+  "info": {
+    "singularName": "plant-crop",
+    "pluralName": "plant-crops",
+    "displayName": "plant-crop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plant_name": {
+      "type": "string"
+    },
+    "plant_variation": {
+      "type": "string"
+    },
+    "plant_temp": {
+      "type": "string"
+    },
+    "plant_humid": {
+      "type": "string"
+    },
+    "tds_level": {
+      "type": "string"
+    },
+    "ph_level": {
+      "type": "string"
+    },
+    "water_temp": {
+      "type": "string"
+    },
+    "time": {
+      "type": "datetime"
+    }
+  }
+}

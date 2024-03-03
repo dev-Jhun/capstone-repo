@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crop_details",
+  "info": {
+    "singularName": "crop-detail",
+    "pluralName": "crop-details",
+    "displayName": "crop-detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image_name": {
+      "type": "string"
+    },
+    "crop_name": {
+      "type": "string"
+    },
+    "crop_variation": {
+      "type": "string"
+    },
+    "crop_description": {
+      "type": "text"
+    },
+    "time": {
+      "type": "datetime"
+    },
+    "suggested_temp": {
+      "type": "string"
+    },
+    "suggested_humidity": {
+      "type": "string"
+    },
+    "suggested_ph": {
+      "type": "string"
+    },
+    "suggested_tds": {
+      "type": "string"
+    },
+    "suggested_waterTemp": {
+      "type": "string"
+    }
+  }
+}

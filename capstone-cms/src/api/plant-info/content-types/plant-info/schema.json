@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plant_infos",
+  "info": {
+    "singularName": "plant-info",
+    "pluralName": "plant-infos",
+    "displayName": "plantInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plant_no": {
+      "type": "string",
+      "unique": true
+    },
+    "plant_name": {
+      "type": "string"
+    },
+    "plant_variation": {
+      "type": "string"
+    },
+    "plant_temp": {
+      "type": "string"
+    },
+    "plant_humid": {
+      "type": "string"
+    },
+    "tds_level": {
+      "type": "string"
+    },
+    "ph_level": {
+      "type": "string"
+    },
+    "water_temp": {
+      "type": "string"
+    },
+    "crop_image": {
+      "type": "string"
+    }
+  }
+}
